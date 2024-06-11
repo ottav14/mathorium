@@ -1,9 +1,10 @@
 import styles from "./Sidebar.module.css";
+import Link from "next/link";
 
 function SidebarItem({ text, link }) {
 	return (
 		<div className={styles.sidebarItem}>
-			<a href={link}>{text}</a>
+			<Link href={link}>{text}</Link>
 		</div>
 	);
 }
@@ -17,9 +18,9 @@ export default function Sidebar() {
 			<div className={styles.sidebarTitle}>
 				Subjects
 			</div>
-			<SidebarItem text="Set Theory" link="set-theory" />	
-			<SidebarItem text="Linear Algebra" />	
-			<SidebarItem text="Calculus" />	
+			<SidebarItem text="Set Theory" link="/set-theory" />	
+			<SidebarItem text="Linear Algebra" link="/linear-algebra" />	
+			<SidebarItem text="Calculus" link="/calculus" />	
 		</div>
 	);
 }

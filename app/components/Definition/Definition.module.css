@@ -1,0 +1,16 @@
+.definition {
+	border-bottom: 1px solid rgb(var(--light-grey-rgb));
+}
+
+.term {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.description {
+	color: rgb(var(--light-grey-rgb));
+	font-size: 20px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
