@@ -1,0 +1,37 @@
+.notesBody {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 5rem;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.notesTitle {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	color: #fff;
+}
+
+.notesContent {
+	font-size: 20px;
+	color: rgb(var(--light-grey-rgb));
+	padding: 5rem;
+}
+	
+.notesSectionTitle {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	color: #fff;
+}
+
+.notesSections {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5rem;
+	font-size: 30px;
+	color: rgb(var(--light-grey-rgb));
+}

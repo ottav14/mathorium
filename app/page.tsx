@@ -1,37 +1,18 @@
 import styles from "./page.module.css";
-import Navbar from "./Navbar.tsx";
-
-function HeaderItem({ text, link }) {
-	return (
-		<div className={styles.headerItem}>
-			<a href={link}>{text}</a>
-		</div>
-	);
-}
-
-function SubjectItem({ text, link }) {
-	return (
-		<div className={styles.subjectItem}>
-			<a href={link}>{text}</a>
-		</div>
-	);
-}
+import Sidebar from "./components/Sidebar/Sidebar.tsx";
 
 export default function Home() {
-  return (
-	<div className={styles.main}>
-		<div className={styles.bodyContent}>
-			<div className={styles.subjectContainer}>
-				<div className={styles.subjectTitle}>
-					Subjects
-				</div>
-				<div className={styles.subjectItemsContainer}>
-					<SubjectItem text="Set Theory" />
-					<SubjectItem text="Linear Algebra" />
-					<SubjectItem text="Calculus" />
-				</div>
+	return (
+		<>
+			<div className={styles.landingTitle}>
+				Mathorium
 			</div>
-		</div>
-	</div>
-  );
+			<div className={styles.landingContent}>
+				This is a site written and maintained by me, Dom Ottaviano, with the goal of helping others to
+				efficiently learn different topics within mathematics. It also serves as an archive of the
+				mathematical knowledge of gathered in my life thus far. If you have any subject requests, or are
+				interested in hiring me, I can be best reached at dominicjottaviano@gmail.com 
+			</div>
+		</>
+	);
 }

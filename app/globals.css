@@ -9,6 +9,11 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
+  --dark-blue-rgb: 7, 15, 43;
+  --blue-rgb: 27, 26, 85;
+  --grey-rgb: 83, 92, 145;
+  --light-grey-rgb: 146, 144, 195;
+
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #16abff33 0deg,
@@ -86,12 +91,18 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+	display: flex;
+	color: rgb(var(--light-grey-rgb));
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.main {
+	flex: 1;
+	background-color: rgb(var(--blue-rgb)); 
 }
 
 @media (prefers-color-scheme: dark) {
