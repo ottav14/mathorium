@@ -1,5 +1,6 @@
 :root {
   --max-width: 1100px;
+  --sidebar-width: 250px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
@@ -102,6 +103,7 @@ a {
 
 .main {
 	flex: 1;
+	margin-left: var(--sidebar-width);	
 	background-color: rgb(var(--blue-rgb)); 
 }
 

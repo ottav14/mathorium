@@ -1,5 +1,7 @@
 .sidebar {
 	display: flex;
+	position: fixed;
+	width: var(--sidebar-width);
 	flex-direction: column;
 	background-color: rgb(var(--dark-blue-rgb));
 	height: 100vh;
