@@ -1,9 +1,9 @@
-.definition {
+.noteItem {
 	border-bottom: 1px solid rgb(var(--light-grey-rgb));
 	margin-bottom: 2rem;
 }
 
-.term {
+.label {
 	color: #fff;
 	font-size: 30px;
 	font-weight: bold;

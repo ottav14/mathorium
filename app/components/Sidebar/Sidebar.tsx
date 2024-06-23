@@ -18,9 +18,9 @@ export default function Sidebar() {
 			<div className={styles.sidebarTitle}>
 				Subjects
 			</div>
-			<SidebarItem text="Set Theory" link="/set-theory" />	
-			<SidebarItem text="Linear Algebra" link="/linear-algebra" />	
-			<SidebarItem text="Calculus" link="/calculus" />	
+			<SidebarItem text="Set Theory" link="/subjects/set-theory" />	
+			<SidebarItem text="Linear Algebra" link="/subjects/linear-algebra" />	
+			<SidebarItem text="Calculus" link="/subjects/calculus" />	
 		</div>
 	);
 }
