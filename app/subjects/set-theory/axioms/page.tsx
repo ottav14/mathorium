@@ -12,25 +12,24 @@ export default function Axioms() {
 				Every set "A" contains at least one element which is disjoint from "A."
 			</NoteItem>
 			<NoteItem label="Axiom Schema of Specification">
-				hell yea!
-			</NoteItem>
-			<NoteItem label="Axiom of Pairing">
-				hell yea!
+				A subset of a given set which requires a fomula to be satified for membership may always be constructed,
+				so long as the formula is well formed. (More rigor to be added when the subject of logic is covered).
 			</NoteItem>
 			<NoteItem label="Axiom of Union">
-				hell yea!
+				For any set of sets "A" there exists a set "B" such that all elements of all sets in A are members of B.
 			</NoteItem>
 			<NoteItem label="Axiom Schema of Replacement">
-				hell yea!
+				The image of any set under a well defined function is always another set.
 			</NoteItem>
 			<NoteItem label="Axiom of Infinity">
-				hell yea!
+				There exists at least one set of infinite size.
 			</NoteItem>
 			<NoteItem label="Axiom of Power Set">
-				hell yea!
+				For every set "A" a power set of A may be constructed, containing all subsets of A.
 			</NoteItem>
 			<NoteItem label="Axiom of Choice (Controverisal)">
-				hell yea!
+				For any collection, infinite or otherwise, of non-empty sets, a new set may be constructed by choosing
+				one element from each set.
 			</NoteItem>
 		</Note>
 	);

@@ -31,11 +31,12 @@
 .sidebarItem {
 	display: flex;
 	justify-content: center;
+	background-color: rgb(var(--blue-rgb));
 	padding: 2rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
 	margin-bottom: 1rem;
-	border-bottom: 1px solid #555;
+	border-radius: 10px;
 	transition: all 0.5s ease;
 }
 
