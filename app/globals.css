@@ -106,7 +106,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	background: linear-gradient(to right, rgb(var(--dark-blue-rgb)), 25%, rgb(var(--blue-rgb)));
+	background-color: rgb(var(--blue-rgb));
 	margin-left: var(--sidebar-width);	
 	height: 100vh;
 }

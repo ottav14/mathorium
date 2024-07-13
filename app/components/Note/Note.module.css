@@ -1,5 +1,5 @@
 .note {
-	background: linear-gradient(to right, rgb(var(--dark-blue-rgb)), 25%, rgb(var(--blue-rgb)));
+	background-color: rgb(var(--blue-rgb));
 	flex: 1;
 	padding-bottom: 5rem;
 }
