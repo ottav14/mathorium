@@ -25,7 +25,7 @@ export default function Sidebar() {
 				<div className={styles.itemContainer}>
 					<SidebarItem text="Set Theory" link="/subjects/set-theory" />	
 					<SidebarItem text="Linear Algebra" link="/subjects/linear-algebra" />	
-					<SidebarItem text="Calculus" link="/subjects/calculus" />	
+					<SidebarItem text="Analysis" link="/subjects/analysis" />	
 				</div>
 				<div className={styles.iconContainer}>
 					<a href="https://github.com/ottav14">
